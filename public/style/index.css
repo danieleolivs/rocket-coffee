@@ -132,6 +132,7 @@ body{
     #blur-mobile img{
         width:100%;
         height:50rem;
+        margin-bottom:-2rem
         
     }
 
@@ -160,6 +161,112 @@ body{
 
     .mobile button img{
         margin-left:0.5rem;
+    }
+}
+
+@media(max-width:700px){
+
+    #text{
+        position: absolute;
+        top: 15rem;
+        width: 32.2rem;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #text h2{
+        color:var(--text-color);
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+        font-size:2rem;
+        text-align:center;
+    }
+
+    h1{
+        font-size:3rem
+    }
+
+    #title {
+        text-align: center;
+        margin-top: 2rem;
+        position: absolute;
+        top: 30rem;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+    }
+
+    #imagem-bg img{
+        width: 40rem;
+        height: 25rem;
+        
+    }
+
+    .mobile button{
+        padding: 1rem 3rem;
+        left: 50%;
+        transform:translate(-50%);
+        position:absolute;
+        top:25rem
+    }
+
+    #blur-mobile img{
+        width:100%;
+        height:35rem;
+        margin-bottom:-2rem
+    }
+}
+
+@media(min-width:700px){
+
+    #text{
+        position: absolute;
+        top: 15rem;
+        width: 40rem;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #text h2{
+        color:var(--text-color);
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+        font-size:4rem;
+        text-align:center;
+    }
+
+    h1{
+        font-size:7rem
+    }
+
+    #title {
+        text-align: center;
+        margin-top: 2rem;
+        position: absolute;
+        top: 55rem;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+    }
+
+    #imagem-bg img{
+        width: 60rem;
+        height: 35rem;
+        
+    }
+
+    .mobile button{
+        padding: 2rem 4rem;
+        left: 50%;
+        transform:translate(-50%);
+        position:absolute;
+        top:45rem
+    }
+
+    #blur-mobile img{
+        width:100%;
+        height:35rem;
+        margin-bottom:-2rem
     }
 }
 
